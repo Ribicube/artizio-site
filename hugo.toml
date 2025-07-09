@@ -23,13 +23,18 @@ theme = 'ananke'
     name = 'Home'
     url = '/'
     weight = 1
+  # [[menu.main]]
+  #   identifier = 'terms'
+  #   name = 'Terms'
+  #   url = '/terms/'
+  #   weight = 2
+  # [[menu.main]]
+  #   identifier = 'policy'
+  #   name = 'Privacy Policy'
+  #   url = '/policy/'
+  #   weight = 3
   [[menu.main]]
-    identifier = 'terms'
-    name = 'Terms'
-    url = '/terms/'
-    weight = 2
-  [[menu.main]]
-    identifier = 'policy'
-    name = 'Privacy Policy'
-    url = '/policy/'
-    weight = 3
+    identifier = 'contact'
+    name = 'Contact'
+    url = '/contact/'
+    weight = 4
