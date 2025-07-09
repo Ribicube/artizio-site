@@ -16,19 +16,19 @@ Artizio is a fun and creative app that converts your photos into beautiful color
 
 <div class="screenshot-gallery">
   <div class="screenshot-item">
-    <img src="/images/screenshots/app-home.png" alt="Artizio Home Screen" class="app-screenshot">
+    <img src="images/screenshots/app-home.png" alt="Artizio Home Screen" class="app-screenshot">
     <p class="screenshot-caption">🏠 Simple, kid-friendly to use</p>
   </div>
   <div class="screenshot-item">
-    <img src="/images/screenshots/app-coloring.png" alt="Camera Feature" class="app-screenshot">
+    <img src="images/screenshots/app-coloring.png" alt="Camera Feature" class="app-screenshot">
     <p class="screenshot-caption">📸 Take or choose your photo</p>
   </div>
   <div class="screenshot-item">
-    <img src="/images/screenshots/app-result.png" alt="Coloring Page Creation" class="app-screenshot">
+    <img src="images/screenshots/app-result.png" alt="Coloring Page Creation" class="app-screenshot">
     <p class="screenshot-caption">🎨 Magic transformation happens</p>
   </div>
   <div class="screenshot-item">
-    <img src="/images/screenshots/app-print.png" alt="Final Coloring Page" class="app-screenshot">
+    <img src="images/screenshots/app-print.png" alt="Final Coloring Page" class="app-screenshot">
     <p class="screenshot-caption">🖍️ Ready to print and color!</p>
   </div>
 </div>
