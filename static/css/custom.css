@@ -1,0 +1,129 @@
+/* Custom Artizio colorful banner styles */
+.artizio-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 40%, #f093fb 70%, #f5576c 100%);
+  background-size: 400% 400%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Ensure text remains readable on colorful background */
+.artizio-gradient h1,
+.artizio-gradient h2,
+.artizio-gradient a {
+  color: white !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Make the navigation more visible */
+.artizio-gradient .site-navigation a {
+  color: white !important;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.artizio-gradient .site-navigation a:hover {
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+}
+
+/* Additional fun styling for the banner */
+.artizio-gradient {
+  position: relative;
+  overflow: hidden;
+}
+
+.artizio-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="white" opacity="0.1"/><circle cx="80" cy="30" r="1" fill="white" opacity="0.15"/><circle cx="40" cy="70" r="1.5" fill="white" opacity="0.1"/><circle cx="90" cy="80" r="1" fill="white" opacity="0.2"/></svg>');
+  pointer-events: none;
+}
+
+/* Screenshot Gallery Styles */
+.screenshot-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(244, 147, 251, 0.1) 100%);
+  border-radius: 20px;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+}
+
+.screenshot-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.screenshot-item:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+.app-screenshot {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 3px solid white;
+  transition: all 0.3s ease;
+}
+
+.app-screenshot:hover {
+  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.3);
+  transform: scale(1.05);
+}
+
+.screenshot-caption {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #667eea;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .screenshot-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .app-screenshot {
+    max-width: 150px;
+  }
+}
+
+/* Logo styling */
+.artizio-gradient nav img {
+  max-height: 50px !important;
+  width: auto !important;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  transition: all 0.3s ease;
+}
+
+.artizio-gradient nav img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+  .artizio-gradient nav img {
+    max-height: 40px !important;
+  }
+} 
