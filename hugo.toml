@@ -1,4 +1,4 @@
-baseURL = 'https://ribicube.github.io/artizio-site/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Artizio'
 theme = 'ananke'
