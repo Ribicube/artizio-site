@@ -46,11 +46,11 @@ Artizio is a fun and creative app that converts your photos into beautiful color
 Ready to start creating amazing coloring pages? Download Artizio now and bring your photos to life!
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://apps.apple.com/app/artizio" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
+  <a href="https://apps.apple.com/us/app/artizio/id6748326716" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
     📱 Download for iOS
   </a>
-  <a href="https://play.google.com/store/apps/details?id=com.ribicube.artizio" style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
-    🤖 Download for Android
+  <a href="#" style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
+    🤖 Android, comming soon
   </a>
 </div>
 
