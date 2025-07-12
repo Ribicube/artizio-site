@@ -8,6 +8,16 @@ theme = 'ananke'
     [markup.goldmark.renderer]
       unsafe = true
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-G0BM8F9845'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
+    # anonymizeIP = true  # Uncomment if you want to anonymize IP addresses
+
 [params]
   author = 'Ribicube LLC'
   description = 'Transform your photos into fun coloring pages with Artizio - the ultimate coloring page maker app for kids and families.'
