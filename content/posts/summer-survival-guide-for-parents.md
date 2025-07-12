@@ -7,8 +7,6 @@ featured_image = "/images/posts/summer-survival-guide.png"
 author = "Artizio Team"
 +++
 
-# Summer Survival Guide for Parents: 5 Fun Ways to Keep Kids Entertained
-
 Summer is here! 🌞 While kids are thrilled about the break from school, parents often find themselves wondering: "How do I keep them busy, engaged, and *not* glued to screens all day?" 
 
 Don't worry – we've got you covered! Here are 5 fun and educational activities that will turn you from a stressed parent into a summer superhero.
