@@ -26,6 +26,15 @@ theme = 'ananke'
   background_color_class = 'artizio-gradient'
   custom_css = ['css/custom.css']
   site_logo = 'images/logo/artizio-logo.png'
+
+[params.ananke.social.follow]
+  networks = ["instagram", "facebook"]
+
+[params.ananke.social.instagram]
+  username = "artizioapp"
+
+[params.ananke.social.facebook]
+  profilelink = "https://www.facebook.com/profile.php?id=61578154805779"
   
 [menu]
   [[menu.main]]
@@ -48,3 +57,8 @@ theme = 'ananke'
     name = 'Contact'
     url = '/contact/'
     weight = 4
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
