@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://artizio.app/'
 languageCode = 'en-us'
 title = 'Artizio'
 theme = 'ananke'
