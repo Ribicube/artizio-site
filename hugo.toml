@@ -26,6 +26,7 @@ theme = 'ananke'
   background_color_class = 'artizio-gradient'
   custom_css = ['css/custom.css']
   site_logo = 'images/logo/artizio-logo.png'
+  favicon = 'favicon.ico'
 
 [params.ananke.social.follow]
   networks = ["instagram", "facebook"]
