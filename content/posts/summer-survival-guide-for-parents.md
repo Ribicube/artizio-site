@@ -4,6 +4,7 @@ description = "Discover 5 creative and educational activities to keep your kids 
 date = 2024-06-15T10:00:00Z
 draft = false
 featured_image = "/images/posts/summer-survival-guide.png"
+images = ["/images/posts/summer-survival-guide.png"]
 author = "Artizio Team"
 +++
 
