@@ -50,7 +50,7 @@ Ready to start creating amazing coloring pages? Download Artizio now and bring y
     📱 Download for iOS
   </a>
   <a href="#" style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
-    🤖 Android, comming soon
+    🤖 Android, coming soon
   </a>
 </div>
 
