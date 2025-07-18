@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Artizio"
-description: "Transform your photos into fun coloring pages with Artizio - the ultimate coloring page maker app for kids and families."
+title: "Artizio: Photo to Coloring Page"
+description: "Turn your photos into printable coloring pages in seconds – free to try for kids & families."
 featured_image: ""
 ---
 
@@ -16,20 +16,20 @@ Artizio is a fun and creative app that converts your photos into beautiful color
 
 <div class="screenshot-gallery">
   <div class="screenshot-item">
-    <img src="images/screenshots/app-home.png" alt="Artizio Home Screen" class="app-screenshot">
-    <p class="screenshot-caption">🏠 Simple, kid-friendly to use</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-coloring.png" alt="Camera Feature" class="app-screenshot">
-    <p class="screenshot-caption">📸 Take or choose your photo</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-result.png" alt="Coloring Page Creation" class="app-screenshot">
-    <p class="screenshot-caption">🎨 Magic transformation happens</p>
+    <img src="images/screenshots/app-transform.png" alt="Photo transformed to coloring page" class="app-screenshot">
+    <p class="screenshot-caption">📸 Your photo transformed to coloring page</p>
   </div>
   <div class="screenshot-item">
     <img src="images/screenshots/app-print.png" alt="Final Coloring Page" class="app-screenshot">
-    <p class="screenshot-caption">🖍️ Ready to print and color!</p>
+    <p class="screenshot-caption">🖍️ Print &amp; color together</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="images/screenshots/app-result.png" alt="Coloring Page Creation" class="app-screenshot">
+    <p class="screenshot-caption">🎨 Tap • Done!</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="images/screenshots/app-home.png" alt="Artizio Home Screen" class="app-screenshot">
+    <p class="screenshot-caption">🏠 Simple, kid-friendly to use</p>
   </div>
 </div>
 
