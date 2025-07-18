@@ -31,6 +31,17 @@ theme = 'ananke'
 [params.ananke.social.follow]
   networks = ["instagram", "facebook"]
 
+[params.ananke.social.share]
+  icons = true # show icons for each share link
+  sharetext = true # show the share text
+  networks = [
+    "email",
+    "facebook",
+    "linkedin",
+    "x-twitter",
+    "whatsapp"
+  ]
+
 [params.ananke.social.instagram]
   username = "artizioapp"
 
