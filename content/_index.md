@@ -73,7 +73,7 @@ Ready to create and color your own masterpieces? Download Artizio now and turn y
 1. **📸 Capture or Choose**: Take a new photo or select one from your gallery
 2. **🎨 Transform**: Our smart technology converts it into a coloring page
 3. **✏️ Color**: Bring your page to life with Apple Pencil or your finger
-4. **💾 Save or Print**: Save your artwork to Photos or print it out to color offline
+4. **💾 Save or Print**: Save your artwork to Photos or print it out
 
 ## Perfect for Everyone
 
