@@ -20,7 +20,7 @@ theme = 'ananke'
 
 [params]
   author = 'Ribicube LLC'
-  description = 'Transform your photos into fun coloring pages with Artizio - the ultimate coloring page maker app for kids and families.'
+  description = 'Transform your photos into fun coloring pages with Artizio - the ultimate coloring book maker app for kids and families.'
   show_reading_time = false
   recent_posts_number = 3
   background_color_class = 'artizio-gradient'

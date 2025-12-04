@@ -6,7 +6,7 @@ build:
   list: never
 ---
 
-## Artizio - Coloring Page Maker
+## Artizio - Coloring Book Maker
 
 **Get in Touch with Us**
 
@@ -18,7 +18,7 @@ We're here to help! Whether you have questions about Artizio, need technical sup
 
 **Business Details:**  
 Ribicube LLC  
-Artizio - Coloring Page Maker  
+Artizio - Coloring Book Maker
 
 ## How We Can Help
 

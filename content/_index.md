@@ -1,35 +1,45 @@
 ---
-title: "Artizio: Photo to Coloring Page"
-description: "Turn your photos into printable coloring pages in seconds – free to try for kids & families."
+title: "Artizio: Coloring Book Maker"
+description: "Turn your photos into coloring pages and color them in the app – free to try for kids & families."
 featured_image: ""
 ---
 
-# 🎨 Artizio - Coloring Page Maker
+# 🎨 Artizio - Coloring Book Maker
 
-Transform your photos into amazing coloring pages with just a few taps! Artizio is the perfect app for kids, parents, and anyone who loves coloring.
+Transform your photos into coloring pages and bring them to life with Apple Pencil or your finger! Artizio is the perfect creative app for kids, parents, and anyone who loves coloring.
 
 ## What is Artizio?
 
-Artizio is a fun and creative app that converts your photos into beautiful coloring pages. Whether it's a family photo, a pet picture, or any image you love, Artizio transforms it into a coloring masterpiece that kids and adults can enjoy together.
+Artizio is a fun and creative app that turns your photos into beautiful coloring pages and lets you color them right in the app! Whether it's a family photo, a pet picture, or any image you love, Artizio transforms it into a coloring masterpiece. Color digitally with Apple Pencil or your finger, or print it out for classic coloring fun with family and friends.
 
 ## 📱 See Artizio in Action
 
 <div class="screenshot-gallery">
   <div class="screenshot-item">
+    <img src="images/screenshots/app-coloring-book.png" alt="Turn photos into coloring book" class="app-screenshot">
+    <p class="screenshot-caption">📘 Turn your photos into coloring book</p>
+  </div>
+  <div class="screenshot-item">
     <img src="images/screenshots/app-transform.png" alt="Photo transformed to coloring page" class="app-screenshot">
-    <p class="screenshot-caption">📸 Your photo transformed to coloring page</p>
+    <p class="screenshot-caption">✨ Al magic happens</p>
   </div>
   <div class="screenshot-item">
-    <img src="images/screenshots/app-print.png" alt="Final Coloring Page" class="app-screenshot">
-    <p class="screenshot-caption">🖍️ Print &amp; color together</p>
+    <img src="images/screenshots/app-color-print.png" alt="Color and print the page" class="app-screenshot">
+    <p class="screenshot-caption">🖍️ Color in and print</p>
   </div>
   <div class="screenshot-item">
-    <img src="images/screenshots/app-result.png" alt="Coloring Page Creation" class="app-screenshot">
-    <p class="screenshot-caption">🎨 Tap • Done!</p>
+    <img src="images/screenshots/app-result.png" alt="Save and share the masterpiece" class="app-screenshot">
+    <p class="screenshot-caption">🎨 Save and share your masterpiece</p>
   </div>
   <div class="screenshot-item">
     <img src="images/screenshots/app-home.png" alt="Artizio Home Screen" class="app-screenshot">
     <p class="screenshot-caption">🏠 Simple, kid-friendly to use</p>
+  </div>
+  <div class="screenshot-item">
+    <video class="app-screenshot" controls playsinline>
+      <source src="videos/app-preview.mp4" type="video/mp4">
+    </video>
+    <p class="screenshot-caption">🎬 Watch Artizio in action</p>
   </div>
 </div>
 
@@ -37,13 +47,17 @@ Artizio is a fun and creative app that converts your photos into beautiful color
 
 - 📸 **Take or Choose Photos**: Use your camera or pick from your photo library
 - 🎨 **Instant Coloring Pages**: Advanced AI converts photos to coloring-friendly outlines
-- 🖍️ **Print & Color**: Generate high-quality coloring pages ready for printing
+- ✏️ **Color in the App**: Use Apple Pencil or your finger to color your creations
+- 🔄 **Portrait & Landscape**: Color comfortably in any orientation
+- 🔍 **Pinch to Zoom & Pan**: Get up close for detailed coloring work
+- 💾 **Save Your Artwork**: Save colored creations directly to your Photos
+- 🖨️ **Print & Share**: Generate high-quality coloring pages ready for printing
 - 👨‍👩‍👧‍👦 **Family Fun**: Perfect for bonding time between parents and kids
-- 🌈 **Kid-Friendly**: Simple, colorful interface designed for children
+- 🌈 **Kid-Friendly**: Fresh, warm design that's simple for children to use
 
 ## Download Artizio Today!
 
-Ready to start creating amazing coloring pages? Download Artizio now and bring your photos to life!
+Ready to create and color your own masterpieces? Download Artizio now and turn your photos into coloring fun!
 
 <div style="text-align: center; margin: 2rem 0;">
   <a href="https://apps.apple.com/us/app/artizio/id6748326716" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
@@ -58,15 +72,15 @@ Ready to start creating amazing coloring pages? Download Artizio now and bring y
 
 1. **📸 Capture or Choose**: Take a new photo or select one from your gallery
 2. **🎨 Transform**: Our smart technology converts it into a coloring page
-3. **🖨️ Print**: Print your custom coloring page at home
-4. **🌈 Color**: Enjoy hours of creative fun with family and friends!
+3. **✏️ Color**: Bring your page to life with Apple Pencil or your finger
+4. **💾 Save or Print**: Save your artwork to Photos or print it out to color offline
 
 ## Perfect for Everyone
 
-- **Kids**: Develop creativity and fine motor skills
-- **Parents**: Create memorable bonding experiences
-- **Educators**: Generate custom educational coloring materials
-- **Art Lovers**: Explore new ways to interact with your favorite photos
+- **Kids**: Develop creativity and fine motor skills with intuitive touch coloring
+- **Parents**: Create memorable bonding experiences with personalized coloring pages
+- **Educators**: Generate custom educational coloring materials from any image
+- **Art Lovers**: Turn favorite photos into line art and color them your way
 
 ---
 

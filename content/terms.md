@@ -1,12 +1,12 @@
 ---
 title: "Terms and Conditions"
-description: "Terms of Service for Artizio - Coloring Page Maker"
+description: "Terms of Service for Artizio - Coloring Book Maker"
 type: "page"
 build:
   list: never
 ---
 
-## Artizio - Coloring Page Maker
+## Artizio - Coloring Book Maker
 
 **Last Updated:** July 8, 2025
 
