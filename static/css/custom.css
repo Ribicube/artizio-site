@@ -1,8 +1,136 @@
-/* Custom Artizio colorful banner styles */
+/* Reduce excessive bottom padding on main content */
+main[role="main"] {
+  padding-bottom: 3rem;
+}
+
+/* Wider content for homepage */
+.measure-wide {
+  max-width: 60em;
+}
+
+/* Left-align lists within centered content */
+.measure-wide ul,
+.measure-wide ol {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.measure-wide li {
+  text-align: left;
+}
+
+/* Mobile navigation - keep horizontal */
+nav[role="navigation"] > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav[role="navigation"] > div > div {
+  display: flex;
+  align-items: center;
+}
+
+nav[role="navigation"] ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Align social icons with nav items */
+nav[role="navigation"] .ananke-socials {
+  display: flex;
+  align-items: center;
+}
+
+nav[role="navigation"] .ananke-social-link {
+  padding-top: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+nav[role="navigation"] .ananke-social-link .icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation on featured image pages (non-gradient backgrounds) */
+/* Target nav inside dimmed overlay divs (bg-black-*) used for featured images */
+header [class*="bg-black"] nav[role="navigation"] a,
+header [class*="bg-black"] nav[role="navigation"] .logo-text {
+  color: white !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+header [class*="bg-black"] nav[role="navigation"] a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+header [class*="bg-black"] nav[role="navigation"] svg {
+  fill: white !important;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+}
+
+header [class*="bg-black"] nav[role="navigation"] a:hover svg {
+  fill: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Footer styling for artizio-gradient */
+footer.artizio-gradient {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+footer.artizio-gradient a,
+footer.artizio-gradient p {
+  color: #2c3e50 !important;
+}
+
+footer.artizio-gradient a:hover {
+  color: #1a2a3a !important;
+}
+
+/* Social icons in footer */
+footer.artizio-gradient .social-icons a,
+footer.artizio-gradient svg {
+  color: #3d4f63 !important;
+  fill: #3d4f63 !important;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+footer.artizio-gradient .social-icons a:hover,
+footer.artizio-gradient a:hover svg {
+  color: #1a2a3a !important;
+  fill: #1a2a3a !important;
+  opacity: 1;
+}
+
+/* Align footer social icons vertically */
+footer .ananke-socials {
+  display: flex;
+  align-items: center;
+}
+
+footer .ananke-social-link {
+  padding-top: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+footer .ananke-social-link .icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Custom Artizio calming banner styles */
 .artizio-gradient {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 40%, #f093fb 70%, #f5576c 100%);
-  background-size: 400% 400%;
-  animation: gradient-shift 8s ease infinite;
+  background: linear-gradient(135deg, #a8c0e8 0%, #c4b5d9 50%, #d4c4e8 100%);
+  background-size: 200% 200%;
+  animation: gradient-shift 12s ease infinite;
+  position: relative;
+  overflow: hidden;
 }
 
 @keyframes gradient-shift {
@@ -11,35 +139,7 @@
   100% { background-position: 0% 50%; }
 }
 
-/* Ensure text remains readable on colorful background */
-.artizio-gradient h1,
-.artizio-gradient h2,
-.artizio-gradient a {
-  color: white !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-}
-
-/* Make the navigation more visible */
-.artizio-gradient .site-navigation a {
-  color: white !important;
-  background: rgba(255,255,255,0.1);
-  border-radius: 20px;
-  padding: 8px 16px;
-  margin: 0 4px;
-  transition: all 0.3s ease;
-}
-
-.artizio-gradient .site-navigation a:hover {
-  background: rgba(255,255,255,0.2);
-  transform: translateY(-2px);
-}
-
-/* Additional fun styling for the banner */
-.artizio-gradient {
-  position: relative;
-  overflow: hidden;
-}
-
+/* Soft watercolor overlay effect */
 .artizio-gradient::before {
   content: '';
   position: absolute;
@@ -47,70 +147,424 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="white" opacity="0.1"/><circle cx="80" cy="30" r="1" fill="white" opacity="0.15"/><circle cx="40" cy="70" r="1.5" fill="white" opacity="0.1"/><circle cx="90" cy="80" r="1" fill="white" opacity="0.2"/></svg>');
+  background:
+    radial-gradient(ellipse at 20% 30%, rgba(255,255,255,0.3) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(255,255,255,0.2) 0%, transparent 40%);
   pointer-events: none;
 }
 
-/* Screenshot Gallery Styles */
-.screenshot-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-  padding: 2rem;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(244, 147, 251, 0.1) 100%);
+/* Ensure text remains readable on calming background */
+.artizio-gradient h1 {
+  color: #1a2a3a !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+}
+
+/* Subtitle/description text - much darker for better contrast */
+.artizio-gradient h2 {
+  color: #1a2a3a !important;
+  font-weight: 500 !important;
+  text-shadow: none;
+}
+
+/* Navigation links */
+.artizio-gradient nav a {
+  color: #2c3e50 !important;
+}
+
+/* Make the navigation clean and visible */
+.artizio-gradient .site-navigation a {
+  color: #2c3e50 !important;
+  background: rgba(255,255,255,0.4);
   border-radius: 20px;
-  border: 2px solid rgba(102, 126, 234, 0.2);
+  padding: 8px 16px;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.artizio-gradient .site-navigation a:hover {
+  background: rgba(255,255,255,0.6);
+  transform: translateY(-2px);
+}
+
+/* Split Hero Layout */
+.hero-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  gap: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a2a3a;
+  line-height: 1.1;
+  margin: 0 0 1rem 0;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #3d4f63;
+  line-height: 1.5;
+  margin: 0 0 2rem 0;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Fanned Screenshot Stack */
+.hero-screenshot-stack {
+  position: relative;
+  width: 480px;
+  height: 500px;
+  flex: 0 0 auto;
+}
+
+/* iPhone-style Phone Frame */
+.phone-frame {
+  position: absolute;
+  width: 180px;
+  height: 390px;
+  background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  border-radius: 32px;
+  padding: 6px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 2px rgba(255,255,255,0.1),
+    inset 0 0 0 1px rgba(0,0,0,0.5);
+  transition: all 0.4s ease;
+}
+
+.phone-notch {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 22px;
+  background: #000;
+  border-radius: 12px;
+  z-index: 10;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 26px;
+  display: block;
+}
+
+/* Back card - left and tilted */
+.stack-back {
+  left: 0;
+  top: 60px;
+  transform: rotate(-12deg);
+  z-index: 1;
+}
+
+/* Middle card - center */
+.stack-middle {
+  left: 130px;
+  top: 30px;
+  transform: rotate(0deg);
+  z-index: 2;
+}
+
+/* Front card - right and prominent */
+.stack-front {
+  left: 260px;
+  top: 35px;
+  transform: rotate(15deg);
+  z-index: 3;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 2px rgba(255,255,255,0.1),
+    inset 0 0 0 1px rgba(0,0,0,0.5);
+}
+
+/* Hover effects - cards spread out more */
+.hero-screenshot-stack:hover .stack-back {
+  transform: rotate(-15deg) translateX(-10px);
+}
+
+.hero-screenshot-stack:hover .stack-middle {
+  transform: rotate(0deg) translateY(-8px) scale(1.02);
+}
+
+.hero-screenshot-stack:hover .stack-front {
+  transform: rotate(18deg) translateX(10px);
+}
+
+/* Hero responsive */
+@media (max-width: 900px) {
+  .hero-split {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem 3rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-screenshot-stack {
+    width: 320px;
+    height: 340px;
+    margin: 0 auto;
+  }
+
+  .phone-frame {
+    width: 120px;
+    height: 260px;
+    border-radius: 22px;
+    padding: 4px;
+  }
+
+  .phone-notch {
+    width: 45px;
+    height: 14px;
+    top: 8px;
+    border-radius: 8px;
+  }
+
+  .phone-screen {
+    border-radius: 18px;
+  }
+
+  .stack-back {
+    left: 0;
+    top: 45px;
+    transform: rotate(-10deg);
+  }
+
+  .stack-middle {
+    left: 90px;
+    top: 22px;
+    transform: rotate(0deg);
+  }
+
+  .stack-front {
+    left: 180px;
+    top: 0;
+    transform: rotate(8deg);
+  }
+
+  /* Disable hover effects on mobile */
+  .hero-screenshot-stack:hover .stack-back {
+    transform: rotate(-10deg);
+  }
+
+  .hero-screenshot-stack:hover .stack-middle {
+    transform: rotate(0deg);
+  }
+
+  .hero-screenshot-stack:hover .stack-front {
+    transform: rotate(8deg);
+  }
+}
+
+/* App Store-style Carousel */
+.screenshot-carousel {
+  position: relative;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  max-width: 1400px;
+}
+
+/* Break out of narrow container only on smaller screens */
+@media (max-width: 1399px) {
+  .screenshot-carousel {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+}
+
+.screenshot-carousel-inner {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 1rem 3rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.screenshot-carousel-inner::-webkit-scrollbar {
+  display: none;
 }
 
 .screenshot-item {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .screenshot-item:hover {
-  transform: translateY(-10px) scale(1.05);
+  transform: translateY(-5px);
 }
 
-.app-screenshot {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  border: 3px solid white;
+/* Carousel Phone Frame */
+.carousel-phone-frame {
+  position: relative;
+  width: 200px;
+  height: 430px;
+  background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  border-radius: 32px;
+  padding: 6px;
+  box-shadow:
+    0 15px 50px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 2px rgba(255,255,255,0.1),
+    inset 0 0 0 1px rgba(0,0,0,0.5);
   transition: all 0.3s ease;
 }
 
-.app-screenshot:hover {
-  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.3);
-  transform: scale(1.05);
+.carousel-phone-frame:hover {
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 2px rgba(255,255,255,0.15),
+    inset 0 0 0 1px rgba(0,0,0,0.5);
+}
+
+.carousel-phone-notch {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 22px;
+  background: #000;
+  border-radius: 12px;
+  z-index: 10;
+}
+
+.carousel-phone-screen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 26px;
+  display: block;
+}
+
+.carousel-video-frame .carousel-phone-screen {
+  object-fit: contain;
+  background: #000;
 }
 
 .screenshot-caption {
   margin-top: 1rem;
   font-size: 0.9rem;
-  font-weight: bold;
-  color: #667eea;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  color: #5a6c8a;
+}
+
+/* Carousel Navigation Arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3d4f63;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.carousel-arrow:hover {
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-arrow-left {
+  left: 2rem;
+}
+
+.carousel-arrow-right {
+  right: 2rem;
 }
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
-  .screenshot-gallery {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding: 1rem;
+  .carousel-phone-frame {
+    width: 160px;
+    height: 345px;
+    border-radius: 26px;
+    padding: 5px;
   }
-  
-  .app-screenshot {
-    max-width: 150px;
+
+  .carousel-phone-notch {
+    width: 55px;
+    height: 18px;
+    top: 8px;
+    border-radius: 10px;
+  }
+
+  .carousel-phone-screen {
+    border-radius: 21px;
+  }
+
+  .screenshot-carousel-inner {
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-arrow-left {
+    left: 0.5rem;
+  }
+
+  .carousel-arrow-right {
+    right: 0.5rem;
   }
 }
 
 /* Logo styling - General */
 nav img {
-  max-height: 75px !important;
+  max-height: 40px !important;
   width: auto !important;
   transition: all 0.3s ease;
 }
@@ -119,18 +573,235 @@ nav img:hover {
   transform: scale(1.05);
 }
 
-/* Logo styling - Special effects for gradient background */
+/* Logo with text */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Logo styling - Softer shadow for calming background */
 .artizio-gradient nav img {
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 2px 8px rgba(100, 130, 180, 0.3));
 }
 
 .artizio-gradient nav img:hover {
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+  filter: drop-shadow(0 4px 12px rgba(100, 130, 180, 0.4));
 }
 
 /* Responsive logo sizing */
 @media (max-width: 768px) {
   nav img {
-    max-height: 60px !important;
+    max-height: 32px !important;
+  }
+  .logo-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* CTA Button Styles */
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.cta-button-primary,
+.artizio-gradient .cta-button-primary,
+a.cta-button-primary {
+  background: #007AFF;
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(0, 122, 255, 0.3);
+  text-shadow: none !important;
+}
+
+.cta-button-primary:hover,
+.artizio-gradient .cta-button-primary:hover {
+  background: #0056CC;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 122, 255, 0.4);
+}
+
+.cta-button-secondary {
+  background: rgba(255, 255, 255, 0.8);
+  color: #5a6c8a !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.cta-button-secondary:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-2px);
+}
+
+/* Content section styling */
+.content-section h2 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.content-section ul {
+  color: #4a5568;
+}
+
+/* Feature list styling */
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.feature-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.9rem;
+  width: 8px;
+  height: 8px;
+  background: #007AFF;
+  border-radius: 50%;
+}
+
+/* Posts/Blog Section Styling */
+
+/* Post summary cards */
+article.bb.b--black-10 {
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+article.bb.b--black-10:last-child {
+  border-bottom: none;
+}
+
+/* Post card inner container */
+article.bb.b--black-10 .db.pv4.ph3 {
+  padding: 0;
+}
+
+/* Override flex layout to use float instead */
+article.bb.b--black-10 .flex-column.flex-row-ns {
+  display: block;
+}
+
+/* Post thumbnail - float left with text wrap */
+article.bb.b--black-10 .w-100.w-40-ns {
+  float: left;
+  width: auto;
+  margin: 0 1.5rem 1rem 0;
+}
+
+article.bb.b--black-10 .w-100.w-40-ns img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  display: block;
+}
+
+/* Content area flows around image */
+article.bb.b--black-10 .blah {
+  overflow: hidden;
+}
+
+/* Post title */
+article.bb.b--black-10 h1.f3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 0.75rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+article.bb.b--black-10 h1.f3 a {
+  color: #1a202c;
+}
+
+article.bb.b--black-10 h1.f3 a:hover {
+  color: #007AFF;
+}
+
+/* Post summary text */
+article.bb.b--black-10 .f6.f5-l,
+article.bb.b--black-10 .nested-copy-line-height {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+/* Hide h2 headers that leak into summary */
+article.bb.b--black-10 .nested-copy-line-height h2 {
+  display: none;
+}
+
+/* Author text */
+article.bb.b--black-10 p.f6.lh-copy {
+  font-size: 0.875rem;
+  color: #718096;
+  margin-top: 0.75rem;
+}
+
+/* Read more button */
+article.bb.b--black-10 a.ba.b--moon-gray {
+  font-size: 0.8rem;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  color: #4a5568;
+  display: inline-block;
+}
+
+article.bb.b--black-10 a.ba.b--moon-gray:hover {
+  background: #007AFF;
+  border-color: #007AFF;
+  color: white;
+}
+
+/* Clear float after each article */
+article.bb.b--black-10::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive adjustments for post cards */
+@media (max-width: 600px) {
+  article.bb.b--black-10 .w-100.w-40-ns {
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+
+  article.bb.b--black-10 .w-100.w-40-ns img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+
+  article.bb.b--black-10 h1.f3 {
+    font-size: 1.2rem;
+  }
+
+  article.bb.b--black-10 .f6.f5-l {
+    font-size: 0.95rem;
   }
 } 

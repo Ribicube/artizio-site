@@ -1,87 +1,129 @@
 ---
-title: "Artizio: Coloring Book Maker"
-description: "Turn your photos into coloring pages and color them in the app – free to try for kids & families."
+title: "Turn Photos into Coloring Pages"
+description: "Choose a style, color in-app, or print anytime. Perfect for relaxing, travel memories, and creative gifts."
 featured_image: ""
 ---
 
-# 🎨 Artizio - Coloring Book Maker
+# What is Artizio?
 
-Transform your photos into coloring pages and bring them to life with Apple Pencil or your finger! Artizio is the perfect creative app for kids, parents, and anyone who loves coloring.
+Turn your photos into print-ready coloring pages in seconds. Whether it's a pet portrait, a travel memory, or a favorite moment, Artizio creates clean outlines that are easy to color digitally or on paper.
 
-## What is Artizio?
+Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages for offline coloring anytime.
 
-Artizio is a fun and creative app that turns your photos into beautiful coloring pages and lets you color them right in the app! Whether it's a family photo, a pet picture, or any image you love, Artizio transforms it into a coloring masterpiece. Color digitally with Apple Pencil or your finger, or print it out for classic coloring fun with family and friends.
+## See Artizio in Action
 
-## 📱 See Artizio in Action
-
-<div class="screenshot-gallery">
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-coloring-book.png" alt="Turn photos into coloring book" class="app-screenshot">
-    <p class="screenshot-caption">📘 Turn your photos into coloring book</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-transform.png" alt="Photo transformed to coloring page" class="app-screenshot">
-    <p class="screenshot-caption">✨ Al magic happens</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-color-print.png" alt="Color and print the page" class="app-screenshot">
-    <p class="screenshot-caption">🖍️ Color in and print</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-result.png" alt="Save and share the masterpiece" class="app-screenshot">
-    <p class="screenshot-caption">🎨 Save and share your masterpiece</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="images/screenshots/app-home.png" alt="Artizio Home Screen" class="app-screenshot">
-    <p class="screenshot-caption">🏠 Simple, kid-friendly to use</p>
-  </div>
-  <div class="screenshot-item">
-    <video class="app-screenshot" controls playsinline>
-      <source src="videos/app-preview.mp4" type="video/mp4">
-    </video>
-    <p class="screenshot-caption">🎬 Watch Artizio in action</p>
+<div class="screenshot-carousel">
+  <button class="carousel-arrow carousel-arrow-left" onclick="document.querySelector('.screenshot-carousel-inner').scrollBy({left: -250, behavior: 'smooth'})">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <button class="carousel-arrow carousel-arrow-right" onclick="document.querySelector('.screenshot-carousel-inner').scrollBy({left: 250, behavior: 'smooth'})">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+  </button>
+  <div class="screenshot-carousel-inner">
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/1-Photo-to-Coloring-Page.png" alt="Photo to Coloring Page" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">Photo to Coloring Page</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/2-Choose-Style.png" alt="Choose Style" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">Choose Your Style</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/3-One-tap-Create.png" alt="One-tap Create" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">One-tap Create</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/4-Color-in-app-Tap-to-fill.png" alt="Color in-app" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">Tap-to-fill Coloring</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/5-Clean-Outlines.png" alt="Clean Outlines" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">Clean Outlines</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/6-Print-Anytime.png" alt="Print Anytime" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">Print Anytime</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/7-Save-and-Share.png" alt="Save and Share" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">Save and Share</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame">
+        <div class="carousel-phone-notch"></div>
+        <img src="images/screenshots/8-Calm-Mindful-Close.png" alt="A calm creative break" class="carousel-phone-screen">
+      </div>
+      <p class="screenshot-caption">A Calm Creative Break</p>
+    </div>
+    <div class="screenshot-item">
+      <div class="carousel-phone-frame carousel-video-frame">
+        <div class="carousel-phone-notch"></div>
+        <video class="carousel-phone-screen" controls playsinline>
+          <source src="videos/Artizio-App-Preview-V130.mp4" type="video/mp4">
+        </video>
+      </div>
+      <p class="screenshot-caption">Watch Artizio in Action</p>
+    </div>
   </div>
 </div>
 
 ## Key Features
 
-- 📸 **Take or Choose Photos**: Use your camera or pick from your photo library
-- 🎨 **Instant Coloring Pages**: Advanced AI converts photos to coloring-friendly outlines
-- ✏️ **Color in the App**: Use Apple Pencil or your finger to color your creations
-- 🔄 **Portrait & Landscape**: Color comfortably in any orientation
-- 🔍 **Pinch to Zoom & Pan**: Get up close for detailed coloring work
-- 💾 **Save Your Artwork**: Save colored creations directly to your Photos
-- 🖨️ **Print & Share**: Generate high-quality coloring pages ready for printing
-- 👨‍👩‍👧‍👦 **Family Fun**: Perfect for bonding time between parents and kids
-- 🌈 **Kid-Friendly**: Fresh, warm design that's simple for children to use
+- **Photo to Coloring Page**: Pick a photo from your library or take one
+- **Multiple Outline Styles**: Choose simple, detailed, minimal, and more
+- **Color in the App**: Tap-to-fill with your finger or Apple Pencil
+- **Print and Share**: Export high-quality pages for printing or sharing
+- **Save Progress**: Come back and continue coloring anytime
+- **Works for Everyone**: Calming for adults, fun for kids
 
-## Download Artizio Today!
+## Great For
 
-Ready to create and color your own masterpieces? Download Artizio now and turn your photos into coloring fun!
+- **Mindful Coloring**: Relaxing creative breaks anytime you need them
+- **Pet Portraits**: Turn photos of your pets into colorable art
+- **Travel Memories**: Transform vacation photos into keepsakes
+- **Creative Gifts**: Make personalized coloring pages for friends and family
+- **Teachers and Homeschooling**: Create custom educational materials
+
+## Download Artizio
+
+Ready for a calming creative experience? Download Artizio and turn your photos into coloring art.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://apps.apple.com/us/app/artizio/id6748326716" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
-    📱 Download for iOS
+  <a href="https://apps.apple.com/us/app/artizio/id6748326716" class="cta-button cta-button-primary">
+    Download for iOS
   </a>
-  <a href="#" style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; margin: 0.5rem;">
-    🤖 Android, coming soon
+  <a href="#" class="cta-button cta-button-secondary">
+    Android Coming Soon
   </a>
 </div>
 
 ## How It Works
 
-1. **📸 Capture or Choose**: Take a new photo or select one from your gallery
-2. **🎨 Transform**: Our smart technology converts it into a coloring page
-3. **✏️ Color**: Bring your page to life with Apple Pencil or your finger
-4. **💾 Save or Print**: Save your artwork to Photos or print it out
+1. **Select a Photo**: Take a new photo or choose one from your gallery
+2. **Choose a Style**: Pick from simple, detailed, minimal outlines
+3. **Create**: One tap transforms your photo into a coloring page
+4. **Color or Print**: Bring it to life in the app or print it out
 
-## Perfect for Everyone
 
-- **Kids**: Develop creativity and fine motor skills with intuitive touch coloring
-- **Parents**: Create memorable bonding experiences with personalized coloring pages
-- **Educators**: Generate custom educational coloring materials from any image
-- **Art Lovers**: Turn favorite photos into line art and color them your way
-
----
-
-*Artizio is brought to you by Ribicube LLC - creating fun, family-friendly apps that bring people together.* 
+*Artizio is brought to you by Ribicube LLC - creating apps that help you relax and express your creativity.*
