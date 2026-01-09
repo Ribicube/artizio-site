@@ -23,56 +23,56 @@ Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages f
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/1-Photo-to-Coloring-Page.png" alt="Photo to Coloring Page" class="carousel-phone-screen">
+        <img src="images/screenshots/1-Photo-to-Coloring-Page.jpg" alt="Photo to Coloring Page" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">Photo to Coloring Page</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/2-Choose-Style.png" alt="Choose Style" class="carousel-phone-screen">
+        <img src="images/screenshots/2-Choose-Style.jpg" alt="Choose Style" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">Choose Your Style</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/3-One-tap-Create.png" alt="One-tap Create" class="carousel-phone-screen">
+        <img src="images/screenshots/3-One-tap-Create.jpg" alt="One-tap Create" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">One-tap Create</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/4-Color-in-app-Tap-to-fill.png" alt="Color in-app" class="carousel-phone-screen">
+        <img src="images/screenshots/4-Color-in-app-Tap-to-fill.jpg" alt="Color in-app" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">Tap-to-fill Coloring</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/5-Clean-Outlines.png" alt="Clean Outlines" class="carousel-phone-screen">
+        <img src="images/screenshots/5-Clean-Outlines.jpg" alt="Clean Outlines" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">Clean Outlines</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/6-Print-Anytime.png" alt="Print Anytime" class="carousel-phone-screen">
+        <img src="images/screenshots/6-Print-Anytime.jpg" alt="Print Anytime" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">Print Anytime</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/7-Save-and-Share.png" alt="Save and Share" class="carousel-phone-screen">
+        <img src="images/screenshots/7-Save-and-Share.jpg" alt="Save and Share" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">Save and Share</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/8-Calm-Mindful-Close.png" alt="A calm creative break" class="carousel-phone-screen">
+        <img src="images/screenshots/8-Calm-Mindful-Close.jpg" alt="A calm creative break" class="carousel-phone-screen">
       </div>
       <p class="screenshot-caption">A Calm Creative Break</p>
     </div>
