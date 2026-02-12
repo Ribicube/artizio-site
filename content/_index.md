@@ -6,7 +6,7 @@ featured_image: ""
 
 # What is Artizio?
 
-Turn your photos into print-ready coloring pages in seconds. Whether it's a pet portrait, a travel memory, or a favorite moment, Artizio creates clean outlines that are easy to color digitally or on paper.
+Artizio turns your photos, moods, or ideas into relaxing, print-ready coloring pages. Whether it's a pet portrait, a travel memory, a favorite moment, a scene from your imagination, or a page matched to your mood, Artizio creates clean outlines that are easy to color digitally or on paper.
 
 Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages for offline coloring anytime.
 
@@ -91,6 +91,8 @@ Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages f
 ## Key Features
 
 - **Photo to Coloring Page**: Pick a photo from your library or take one
+- **Mood to Coloring Page**: Tell us how you're feeling and get a page designed to match
+- **Text to Coloring Page**: Describe any scene and watch it come to life
 - **Multiple Outline Styles**: Choose simple, detailed, minimal, and more
 - **Color in the App**: Tap-to-fill with your finger or Apple Pencil
 - **Print and Share**: Export high-quality pages for printing or sharing
@@ -107,7 +109,7 @@ Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages f
 
 ## Download Artizio
 
-Ready for a calming creative experience? Download Artizio and turn your photos into coloring art.
+Ready for a calming creative experience? Download Artizio and turn your photos, moods, and ideas into coloring art.
 
 <div style="text-align: center; margin: 2rem 0;">
   <a href="https://apps.apple.com/us/app/artizio/id6748326716" class="cta-button cta-button-primary">
@@ -120,9 +122,9 @@ Ready for a calming creative experience? Download Artizio and turn your photos i
 
 ## How It Works
 
-1. **Select a Photo**: Take a new photo or choose one from your gallery
+1. **Pick Your Source**: Snap a photo, describe a mood, or type any scene you imagine
 2. **Choose a Style**: Pick from simple, detailed, minimal outlines
-3. **Create**: One tap transforms your photo into a coloring page
+3. **Create**: One tap transforms your idea into a coloring page
 4. **Color or Print**: Bring it to life in the app or print it out
 
 
