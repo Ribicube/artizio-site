@@ -21,7 +21,7 @@ Artizio is a mobile application that allows users to:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/artizio-site.git
+git clone git@github.com:Ribicube/artizio-site.git
 cd artizio-site
 ```
 
@@ -137,6 +137,7 @@ TODO
 
 ## 🔗 Links
 
+- **Live Site**: [artizio.app](https://artizio.app/)
 - [Artizio App Store](https://apps.apple.com/app/artizio) (Update with actual link)
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.artizio) (Update with actual link)
 - [Hugo Documentation](https://gohugo.io/documentation/)
