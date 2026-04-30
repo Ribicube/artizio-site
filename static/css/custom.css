@@ -84,26 +84,26 @@ footer.artizio-gradient {
 
 footer.artizio-gradient a,
 footer.artizio-gradient p {
-  color: #2c3e50 !important;
+  color: #1A1614 !important;
 }
 
 footer.artizio-gradient a:hover {
-  color: #1a2a3a !important;
+  color: #5C544E !important;
 }
 
 /* Social icons in footer */
 footer.artizio-gradient .social-icons a,
 footer.artizio-gradient svg {
-  color: #3d4f63 !important;
-  fill: #3d4f63 !important;
+  color: #1A1614 !important;
+  fill: #1A1614 !important;
   opacity: 0.8;
   transition: all 0.3s ease;
 }
 
 footer.artizio-gradient .social-icons a:hover,
 footer.artizio-gradient a:hover svg {
-  color: #1a2a3a !important;
-  fill: #1a2a3a !important;
+  color: #1A1614 !important;
+  fill: #1A1614 !important;
   opacity: 1;
 }
 
@@ -126,7 +126,7 @@ footer .ananke-social-link .icon {
 
 /* Custom Artizio calming banner styles */
 .artizio-gradient {
-  background: linear-gradient(135deg, #a8c0e8 0%, #c4b5d9 50%, #d4c4e8 100%);
+  background: linear-gradient(135deg, #F5EDE1 0%, #F0DDC8 50%, #EAD0B5 100%);
   background-size: 200% 200%;
   animation: gradient-shift 12s ease infinite;
   position: relative;
@@ -155,27 +155,27 @@ footer .ananke-social-link .icon {
 
 /* Ensure text remains readable on calming background */
 .artizio-gradient h1 {
-  color: #1a2a3a !important;
+  color: #1A1614 !important;
   font-weight: 700 !important;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  text-shadow: none;
 }
 
 /* Subtitle/description text - much darker for better contrast */
 .artizio-gradient h2 {
-  color: #1a2a3a !important;
+  color: #1A1614 !important;
   font-weight: 500 !important;
   text-shadow: none;
 }
 
 /* Navigation links */
 .artizio-gradient nav a {
-  color: #2c3e50 !important;
+  color: #1A1614 !important;
 }
 
 /* Make the navigation clean and visible */
 .artizio-gradient .site-navigation a {
-  color: #2c3e50 !important;
-  background: rgba(255,255,255,0.4);
+  color: #1A1614 !important;
+  background: rgba(255,255,255,0.55);
   border-radius: 20px;
   padding: 8px 16px;
   margin: 0 4px;
@@ -183,7 +183,7 @@ footer .ananke-social-link .icon {
 }
 
 .artizio-gradient .site-navigation a:hover {
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.8);
   transform: translateY(-2px);
 }
 
@@ -208,7 +208,7 @@ footer .ananke-social-link .icon {
 .hero-title {
   font-size: 3rem;
   font-weight: 700;
-  color: #1a2a3a;
+  color: #1A1614;
   line-height: 1.1;
   margin: 0 0 1rem 0;
 }
@@ -216,7 +216,7 @@ footer .ananke-social-link .icon {
 .hero-subtitle {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #3d4f63;
+  color: #5C544E;
   line-height: 1.5;
   margin: 0 0 2rem 0;
 }
@@ -486,7 +486,7 @@ footer .ananke-social-link .icon {
   margin-top: 1rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #5a6c8a;
+  color: #5C544E;
 }
 
 /* Carousel Navigation Arrows */
@@ -504,7 +504,7 @@ footer .ananke-social-link .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #3d4f63;
+  color: #1A1614;
   z-index: 10;
   transition: all 0.3s ease;
 }
@@ -583,16 +583,16 @@ nav img:hover {
 .logo-text {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #1A1614;
 }
 
 /* Logo styling - Softer shadow for calming background */
 .artizio-gradient nav img {
-  filter: drop-shadow(0 2px 8px rgba(100, 130, 180, 0.3));
+  filter: drop-shadow(0 2px 8px rgba(120, 80, 50, 0.25));
 }
 
 .artizio-gradient nav img:hover {
-  filter: drop-shadow(0 4px 12px rgba(100, 130, 180, 0.4));
+  filter: drop-shadow(0 4px 12px rgba(120, 80, 50, 0.35));
 }
 
 /* Responsive logo sizing */
@@ -620,23 +620,23 @@ nav img:hover {
 .cta-button-primary,
 .artizio-gradient .cta-button-primary,
 a.cta-button-primary {
-  background: #007AFF;
+  background: #1A1614;
   color: white !important;
-  box-shadow: 0 4px 15px rgba(0, 122, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(26, 22, 20, 0.25);
   text-shadow: none !important;
 }
 
 .cta-button-primary:hover,
 .artizio-gradient .cta-button-primary:hover {
-  background: #0056CC;
+  background: #33291F;
   color: white !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 122, 255, 0.4);
+  box-shadow: 0 6px 20px rgba(26, 22, 20, 0.35);
 }
 
 .cta-button-secondary {
   background: rgba(255, 255, 255, 0.8);
-  color: #5a6c8a !important;
+  color: #1A1614 !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
@@ -647,12 +647,12 @@ a.cta-button-primary {
 
 /* Content section styling */
 .content-section h2 {
-  color: #2c3e50;
+  color: #1A1614;
   font-weight: 600;
 }
 
 .content-section ul {
-  color: #4a5568;
+  color: #5C544E;
 }
 
 /* Feature list styling */
@@ -674,7 +674,7 @@ a.cta-button-primary {
   top: 0.9rem;
   width: 8px;
   height: 8px;
-  background: #007AFF;
+  background: #E2A576;
   border-radius: 50%;
 }
 
@@ -732,11 +732,11 @@ article.bb.b--black-10 h1.f3 {
 }
 
 article.bb.b--black-10 h1.f3 a {
-  color: #1a202c;
+  color: #1A1614;
 }
 
 article.bb.b--black-10 h1.f3 a:hover {
-  color: #007AFF;
+  color: #E2A576;
 }
 
 /* Post summary text */
@@ -744,7 +744,7 @@ article.bb.b--black-10 .f6.f5-l,
 article.bb.b--black-10 .nested-copy-line-height {
   font-size: 1rem;
   line-height: 1.6;
-  color: #4a5568;
+  color: #5C544E;
 }
 
 /* Hide h2 headers that leak into summary */
@@ -765,15 +765,15 @@ article.bb.b--black-10 a.ba.b--moon-gray {
   padding: 0.4rem 1rem;
   border-radius: 6px;
   margin-top: 1rem;
-  background: #f7fafc;
-  border: 1px solid #e2e8f0;
-  color: #4a5568;
+  background: #faf5ee;
+  border: 1px solid #ead7c2;
+  color: #1A1614;
   display: inline-block;
 }
 
 article.bb.b--black-10 a.ba.b--moon-gray:hover {
-  background: #007AFF;
-  border-color: #007AFF;
+  background: #1A1614;
+  border-color: #1A1614;
   color: white;
 }
 

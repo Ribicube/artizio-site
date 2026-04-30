@@ -30,57 +30,36 @@ Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages f
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/2-Choose-Style.jpg" alt="Choose Style" class="carousel-phone-screen">
+        <img src="images/screenshots/2-Mood-to-Coloring-Page.jpg" alt="Mood to Coloring Page" class="carousel-phone-screen">
       </div>
-      <p class="screenshot-caption">Choose Your Style</p>
+      <p class="screenshot-caption">Coloring for How You Feel</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/3-One-tap-Create.jpg" alt="One-tap Create" class="carousel-phone-screen">
+        <img src="images/screenshots/3-Text-to-Coloring-Page.jpg" alt="Text to Coloring Page" class="carousel-phone-screen">
       </div>
-      <p class="screenshot-caption">One-tap Create</p>
+      <p class="screenshot-caption">Describe It, We'll Draw It</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/4-Color-in-app-Tap-to-fill.jpg" alt="Color in-app" class="carousel-phone-screen">
+        <img src="images/screenshots/4-Choose-Your-Style.jpg" alt="Choose Your Style" class="carousel-phone-screen">
       </div>
-      <p class="screenshot-caption">Tap-to-fill Coloring</p>
+      <p class="screenshot-caption">Pick Your Style</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame">
         <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/5-Clean-Outlines.jpg" alt="Clean Outlines" class="carousel-phone-screen">
+        <img src="images/screenshots/5-Tap-to-Fill-Coloring.jpg" alt="Tap-to-fill Coloring" class="carousel-phone-screen">
       </div>
-      <p class="screenshot-caption">Clean Outlines</p>
-    </div>
-    <div class="screenshot-item">
-      <div class="carousel-phone-frame">
-        <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/6-Print-Anytime.jpg" alt="Print Anytime" class="carousel-phone-screen">
-      </div>
-      <p class="screenshot-caption">Print Anytime</p>
-    </div>
-    <div class="screenshot-item">
-      <div class="carousel-phone-frame">
-        <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/7-Save-and-Share.jpg" alt="Save and Share" class="carousel-phone-screen">
-      </div>
-      <p class="screenshot-caption">Save and Share</p>
-    </div>
-    <div class="screenshot-item">
-      <div class="carousel-phone-frame">
-        <div class="carousel-phone-notch"></div>
-        <img src="images/screenshots/8-Calm-Mindful-Close.jpg" alt="A calm creative break" class="carousel-phone-screen">
-      </div>
-      <p class="screenshot-caption">A Calm Creative Break</p>
+      <p class="screenshot-caption">Relax with Tap-to-Fill</p>
     </div>
     <div class="screenshot-item">
       <div class="carousel-phone-frame carousel-video-frame">
         <div class="carousel-phone-notch"></div>
         <video class="carousel-phone-screen" controls playsinline>
-          <source src="videos/Artizio-App-Preview-V130.mp4" type="video/mp4">
+          <source src="videos/Artizio-App-Preview-V141.mp4" type="video/mp4">
         </video>
       </div>
       <p class="screenshot-caption">Watch Artizio in Action</p>
@@ -93,7 +72,7 @@ Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages f
 - **Photo to Coloring Page**: Pick a photo from your library or take one
 - **Mood to Coloring Page**: Tell us how you're feeling and get a page designed to match
 - **Text to Coloring Page**: Describe any scene and watch it come to life
-- **Multiple Outline Styles**: Choose simple, detailed, minimal, and more
+- **Multiple Outline Styles**: Pick from various styles: simple, detailed, sketch, charcoal, and more
 - **Color in the App**: Tap-to-fill with your finger or Apple Pencil
 - **Print and Share**: Export high-quality pages for printing or sharing
 - **Save Progress**: Come back and continue coloring anytime
@@ -123,7 +102,7 @@ Ready for a calming creative experience? Download Artizio and turn your photos, 
 ## How It Works
 
 1. **Pick Your Source**: Snap a photo, describe a mood, or type any scene you imagine
-2. **Choose a Style**: Pick from simple, detailed, minimal outlines
+2. **Pick from various styles:** simple, detailed, minimal, sketch, pattern, blueprint, charcoal, and more
 3. **Create**: One tap transforms your idea into a coloring page
 4. **Color or Print**: Bring it to life in the app or print it out
 
