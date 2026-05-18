@@ -73,6 +73,7 @@ Color in the app with tap-to-fill or Apple Pencil, or print high-quality pages f
 - **Mood to Coloring Page**: Tell us how you're feeling and get a page designed to match
 - **Text to Coloring Page**: Describe any scene and watch it come to life
 - **Multiple Outline Styles**: Pick from various styles: simple, detailed, sketch, charcoal, and more
+- **Unlock hidden styles**: Collect stars while we generate your pages to unlock new hidden styles
 - **Color in the App**: Tap-to-fill with your finger or Apple Pencil
 - **Print and Share**: Export high-quality pages for printing or sharing
 - **Save Progress**: Come back and continue coloring anytime
